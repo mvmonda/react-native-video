@@ -415,7 +415,7 @@ Video.propTypes = {
   maxBitRate: PropTypes.number,
   resizeMode: PropTypes.string,
   poster: PropTypes.string,
-  posterResizeMode: Image.propTypes.resizeMode,
+  posterResizeMode: Image.propType,
   repeat: PropTypes.bool,
   automaticallyWaitsToMinimizeStalling: PropTypes.bool,
   allowsExternalPlayback: PropTypes.bool,
